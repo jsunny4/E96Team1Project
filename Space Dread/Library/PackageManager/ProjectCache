@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638344702030000000
     m_Hash: 721017021
+=======
+      ticks: 638350773970000000
+    m_Hash: 225229804
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: /Users/sungju/Documents/GitHub/E96Team1Project/Space Dread/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638344702030000000
     m_Hash: 2311458558
+=======
+      ticks: 638350773970000000
+    m_Hash: 2014472534
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
