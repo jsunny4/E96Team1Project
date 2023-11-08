@@ -27,10 +27,8 @@ public class PlayerController : MonoBehaviour
     //Displays current temp
  void SetTempText() 
     {
- // Update the count text with the current count.
         countText.text = "Temp: " + ((int)temp).ToString();
 
- // Check if the count has reached or exceeded the win condition.
  if (temp >= 150)
         {
  // Display the lose text.
