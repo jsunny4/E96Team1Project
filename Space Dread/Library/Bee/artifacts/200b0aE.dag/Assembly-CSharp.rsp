@@ -353,6 +353,13 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/AN Interactive Physical Door Pack/Scripts/AN_Button.cs"
+"Assets/AN Interactive Physical Door Pack/Scripts/AN_DoorKey.cs"
+"Assets/AN Interactive Physical Door Pack/Scripts/AN_DoorScript.cs"
+"Assets/AN Interactive Physical Door Pack/Scripts/AN_HeroController.cs"
+"Assets/AN Interactive Physical Door Pack/Scripts/AN_HeroInteractive.cs"
+"Assets/AN Interactive Physical Door Pack/Scripts/AN_PlugScript.cs"
+"Assets/Scriots/LeverController.cs"
 "Assets/Scriots/PlayerController.cs"
 -langversion:9.0
 
