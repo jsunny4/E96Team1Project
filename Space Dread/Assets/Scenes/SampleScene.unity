@@ -2053,7 +2053,7 @@ GameObject:
   - component: {fileID: 483665472}
   - component: {fileID: 483665471}
   m_Layer: 0
-  m_Name: Cam1
+  m_Name: Cam2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3714,6 +3714,55 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &930527388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930527390}
+  - component: {fileID: 930527389}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &930527389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930527388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064ddb40250c44ed79cd59aacb242ef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 963194225}
+  cam2: {fileID: 483665470}
+  cam3: {fileID: 2038069166}
+  cam4: {fileID: 1270951289}
+  cam5: {fileID: 1009886720}
+--- !u!4 &930527390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930527388}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 60.388023, y: 3.9253235, z: -25.278687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3726,7 +3775,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Cam1
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3855,7 +3904,7 @@ GameObject:
   - component: {fileID: 1009886722}
   - component: {fileID: 1009886721}
   m_Layer: 0
-  m_Name: Cam3 (1)
+  m_Name: Cam5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6277,7 +6326,7 @@ GameObject:
   - component: {fileID: 1270951291}
   - component: {fileID: 1270951290}
   m_Layer: 0
-  m_Name: Cam3
+  m_Name: Cam4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12729,7 +12778,7 @@ GameObject:
   - component: {fileID: 2038069168}
   - component: {fileID: 2038069167}
   m_Layer: 0
-  m_Name: Cam2
+  m_Name: Cam3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12937,3 +12986,4 @@ SceneRoots:
   - {fileID: 2038069169}
   - {fileID: 1270951292}
   - {fileID: 1009886723}
+  - {fileID: 930527390}
